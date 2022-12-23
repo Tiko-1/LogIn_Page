@@ -1,0 +1,65 @@
+.LogInPage {
+	text-align: center;
+}
+
+.LogInPage__main {
+	margin: 130px auto;
+	width: 350px;
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	box-shadow: 1px 0 20px white;
+	gap: 15px;
+	background: linear-gradient(#53c590, #b185eb);
+}
+.LogInPage__main__header {
+	display: flex;
+	align-items: flex-end;
+	flex: 1;
+	/*border-bottom: 1px solid #000;*/
+}
+.LogInPage__main__form {
+	flex: 2;
+}
+.username_input {
+	padding-left: 9px;
+	height: 30px;
+	border-radius: 15px;
+	border: 0.5px solid gray;
+	margin-bottom: 5px;
+}
+.password_input {
+	padding-left: 9px;
+	height: 30px;
+	border-radius: 15px;
+	border: 0.5px solid gray;
+	margin-bottom: 5px;
+}
+/* .login_btn {
+	margin-top: 15px;
+	border: none;
+	background-color: rgb(88, 79, 170);
+	color: white;
+	font-size: 16px;
+	width: 100px;
+	border-radius: 20px;
+	padding: 10px;
+	box-sizing: border-box;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+.login_btn:hover {
+	margin-top: 15px;
+	border: none;
+	background-color: rgb(101, 93, 182);
+	color: white;
+	font-size: 16px;
+	width: 100px;
+	border-radius: 20px;
+	padding: 10px;
+	box-sizing: border-box;
+	margin-right: 5px;
+	margin-left: 5px;
+	box-shadow: 0 0 10px white;
+} */
